@@ -1,0 +1,23 @@
+{
+  "checkpoint": "D:\\Study\\Study_heavy_industrial_chain\\outputs\\models\\gat_lp_best_smoke.pt",
+  "data_path": "D:\\Study\\Study_heavy_industrial_chain\\data\\processed\\supplychain_pps5000\\pyg\\supplychain_data.pt",
+  "edge_csv_path": "D:\\Study\\Study_heavy_industrial_chain\\data\\processed\\supplychain_pps5000\\edge_supplychain.csv",
+  "num_nodes": 37620,
+  "num_edges_full_bidir_message_passing": 100740,
+  "num_edges_full_directed_raw_scoring": 50947,
+  "edge_stats": {
+    "input_edge_rows": 51281,
+    "self_loop_removed": 13,
+    "dedup_forward_rows": 50947,
+    "output_edge_rows_bidirectional": 100740
+  },
+  "rho_upper_bound": 108.18080240488052,
+  "alpha_init": 0.008319405846442465,
+  "alpha_in_final": 0.008319405846442465,
+  "alpha_out_final": 0.008319405846442465,
+  "katz_beta": 1.0,
+  "topk": 100,
+  "prob_min": 0.5071026682853699,
+  "prob_max": 0.5592255592346191,
+  "runtime_seconds": 6.0833330154418945
+}
